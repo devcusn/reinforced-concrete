@@ -1,4 +1,4 @@
-from Floor import *
+from Slab import *
 
 l_y_1 = 4.2
 l_y_2 = 6.0
@@ -30,11 +30,19 @@ print("""
                     |-b2-|
       """)
 
-floors = {'d1': [l_x_1, l_y_1],
-          'd2': [l_x_2, l_y_1],
-          'd3': [l_x_3, l_y_1],
-          'd4': [l_x_1, l_y_2],
-          'd5': [l_x_2, l_y_2],
-          'd6': [l_x_2, l_y_2],
-          'b1': [l_x_3, a],
-          'b1': [a, l_y_2]}
+floors_data = {
+    'd2': {"dimension": [l_x_1, l_y_1], "type": [0, 1, 1, 0]},
+    'd2': {"dimension": [l_x_2, l_y_1], "type": [0, 1, 1, 1]},
+    'd3': {"dimension": [l_x_3, l_y_1], "type": [1, 1, 1, 1]},
+    'd4': {"dimension": [l_x_1, l_y_2], "type": [1, 1, 1, 1]},
+    'd5': {"dimension": [l_x_2, l_y_2], "type": [1, 0, 1, 1]},
+    'd6': {"dimension": [l_x_2, l_y_2], "type": [1, 1, 1, 1]},
+    'b1': {"dimension": [l_x_3, a], "type": [0, 0, 0, 1]},
+    'b2': {"dimension": [a, l_y_2], "type": [1, 0, 0, 0]}
+}
+
+
+floors = [Slab(value['dimension'], value['type'], key)
+          for key, value in floors_data.items()]
+
+print(floors[0])
