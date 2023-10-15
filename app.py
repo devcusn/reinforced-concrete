@@ -81,8 +81,9 @@ loads_for_balcony_slabs = [Load(key, value["m"], value["per_load"])
                            for key, value in loads_data_for_balcony_slabs.items()]
 
 dead_load_for_balcony = sum([l.total_load for l in loads_for_balcony_slabs])
-print(dead_load_for_balcony)
+
 pd_balcony = get_total_load(
     5, dead_load_for_balcony)
 
-print(pd_normal, pd_balcony)
+
+# calculation of internal forces
