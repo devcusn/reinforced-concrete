@@ -1,4 +1,6 @@
 from Slab import *
+from Load import *
+from helper import *
 
 l_y_1 = 4.2
 l_y_2 = 6.0
@@ -42,7 +44,45 @@ slabs_data = {
 }
 
 
-floors = [Slab(value['dimension'], value["edges_type"], key, value["slab_type"], {"beam_front_dimension": beam_front_dimension})
-          for key, value in slabs_data.items()]
+slabs = [Slab(value['dimension'], value["edges_type"], key, value["slab_type"], {"beam_front_dimension": beam_front_dimension})
+         for key, value in slabs_data.items()]
 
-print(floors[0].slab_thicknes)
+
+[s.write_to_file('slabs') for s in slabs]
+# determination of loads
+# TS498 -live load values page 12 table 7
+# for housing = 2 KN/m^2
+# for balcony = 5 KN/m^2 <= 10m^2
+
+loads_data_for_normal_slabs = {
+    "marble": {"m": 0.03, "per_load": 27},
+    "reinforced_concrete": {"m": 0.12, "per_load": 25},
+    "plaster": {"m": 0.02, "per_load": 20},
+    "screed_mortar": {"m": 0.05, "per_load": 21},
+}
+
+loads_data_for_balcony_slabs = {
+    "ceramic": {"m": 0.07, "per_load": 26},
+    "reinforced_concrete": {"m": 0.12, "per_load": 25},
+    "plaster": {"m": 0.02, "per_load": 20},
+    "screed_mortar": {"m": 0.05, "per_load": 21}
+}
+
+
+loads_for_normal_slabs = [Load(key, value["m"], value["per_load"])
+                          for key, value in loads_data_for_normal_slabs.items()]
+
+dead_load_for_normal = sum([l.total_load for l in loads_for_normal_slabs])
+
+pd_normal = get_total_load(
+    2, dead_load_for_normal)
+
+loads_for_balcony_slabs = [Load(key, value["m"], value["per_load"])
+                           for key, value in loads_data_for_balcony_slabs.items()]
+
+dead_load_for_balcony = sum([l.total_load for l in loads_for_balcony_slabs])
+print(dead_load_for_balcony)
+pd_balcony = get_total_load(
+    5, dead_load_for_balcony)
+
+print(pd_normal, pd_balcony)

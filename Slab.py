@@ -40,3 +40,13 @@ class Slab():
             return y * 1000 - beam_front_dimension / 2 if x > y else x - beam_front_dimension / 2
 
         return y * 1000 - beam_front_dimension if x > y else x - beam_front_dimension
+
+    def write_to_file(self, filename):
+        with open(filename, 'a') as file:
+            file.write(f"Floor: {self.floor_name}\n")
+            file.write(f"Dimensions: {self.x} x {self.y}\n")
+            file.write(f"Edge Proportion: {self.edge_proportion}\n")
+            file.write(f"How Floor Works: {self.how_floor_work}\n")
+            file.write(f"ls: {self.ls_n}\n")
+            file.write(f"Slab Thickness: {self.slab_thicknes}\n")
+            file.write(f"-----------------------------------")
