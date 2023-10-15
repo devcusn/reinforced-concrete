@@ -1,6 +1,6 @@
-from Slab import *
-from Load import *
-from helper import *
+from src.classes.Slab import *
+from src.classes.Load import *
+from src.helper.helper import *
 
 l_y_1 = 4.2
 l_y_2 = 6.0
