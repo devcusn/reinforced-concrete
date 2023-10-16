@@ -20,18 +20,66 @@ print("""
       """)
 
 slabs_data = {
-    'd1': {"dimension": [l_x_1, l_y_1], "edges_type": [0, 1, 1, 0], "slab_type": "normal"},
-    'd2': {"dimension": [l_x_2, l_y_1], "edges_type": [0, 1, 1, 1], "slab_type": "normal"},
-    'd3': {"dimension": [l_x_3, l_y_1], "edges_type": [1, 1, 1, 1], "slab_type": "normal"},
-    'd4': {"dimension": [l_x_1, l_y_2], "edges_type": [1, 1, 1, 1], "slab_type": "normal"},
-    'd5': {"dimension": [l_x_2, l_y_2], "edges_type": [1, 0, 1, 1], "slab_type": "normal"},
-    'd6': {"dimension": [l_x_2, l_y_2], "edges_type": [1, 1, 1, 1], "slab_type": "normal"},
-    'b1': {"dimension": [l_x_3, a], "edges_type": [0, 0, 0, 1], "slab_type": "balcony"},
-    'b2': {"dimension": [a, l_y_2], "edges_type": [1, 0, 0, 0], "slab_type": "balcony"}
+    'd1': {"dimension": [l_x_1, l_y_1], "edges_type": [0, 1, 1, 0], "slab_type": "normal", "moment_coefficients": {
+        "a_x_bracket": 0.052,
+        "a_x_opennes": 0.052,
+        "a_y_bracket": 0.052,
+        "a_y_opennes": 0.052
+
+    }},
+    'd2': {"dimension": [l_x_2, l_y_1], "edges_type": [0, 1, 1, 1], "slab_type": "normal", "moment_coefficients": {
+        "a_x_bracktet": 0.052,
+        "a_x_opennes": 0.052,
+        "a_y_bracktet": 0.052,
+        "a_y_opennes": 0.052
+
+    }},
+    'd3': {"dimension": [l_x_3, l_y_1], "edges_type": [1, 1, 1, 1], "slab_type": "normal", "moment_coefficients": {
+        "a_x_bracktet": 0.052,
+        "a_x_opennes": 0.052,
+        "a_y_bracktet": 0.052,
+        "a_y_opennes": 0.052
+
+    }},
+    'd4': {"dimension": [l_x_1, l_y_2], "edges_type": [1, 1, 1, 1], "slab_type": "normal", "moment_coefficients": {
+        "a_x_bracktet": 0.052,
+        "a_x_opennes": 0.052,
+        "a_y_bracktet": 0.052,
+        "a_y_opennes": 0.052
+
+    }},
+    'd5': {"dimension": [l_x_2, l_y_2], "edges_type": [1, 0, 1, 1], "slab_type": "normal", "moment_coefficients": {
+        "a_x_bracktet": 0.052,
+        "a_x_opennes": 0.052,
+        "a_y_bracktet": 0.052,
+        "a_y_opennes": 0.052
+
+    }},
+    'd6': {"dimension": [l_x_2, l_y_2], "edges_type": [1, 1, 1, 1], "slab_type": "normal", "moment_coefficients": {
+        "a_x_bracktet": 0.052,
+        "a_x_opennes": 0.052,
+        "a_y_bracktet": 0.052,
+        "a_y_opennes": 0.052
+
+    }},
+    'b1': {"dimension": [l_x_3, a], "edges_type": [0, 0, 0, 1], "slab_type": "balcony", "moment_coefficients": {
+        "a_x_bracktet": 0.052,
+        "a_x_opennes": 0.052,
+        "a_y_bracktet": 0.052,
+        "a_y_opennes": 0.052
+
+    }},
+    'b2': {"dimension": [a, l_y_2], "edges_type": [1, 0, 0, 0], "slab_type": "balcony", "moment_coefficients": {
+        "a_x_bracktet": 0.052,
+        "a_x_opennes": 0.052,
+        "a_y_bracktet": 0.052,
+        "a_y_opennes": 0.052
+
+    }}
 }
 
 
-slabs = [Slab(value['dimension'], value["edges_type"], key, value["slab_type"], {"beam_front_dimension": beam_front_dimension})
+slabs = [Slab(value['dimension'], value["edges_type"], key, value["slab_type"], value["moment_coefficients"], {"beam_front_dimension": beam_front_dimension})
          for key, value in slabs_data.items()]
 
 
@@ -75,4 +123,5 @@ pd_balcony = get_total_load(
 
 # calculation of internal forces
 
-info = InternalForce(slabs[0], 10, 0.0052, 0.0052, 0.0052, 0.0052)
+internal_forces = InternalForce(slabs[0], 100)
+print(internal_forces.internal_forces)

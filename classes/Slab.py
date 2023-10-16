@@ -1,5 +1,5 @@
 class Slab():
-    def __init__(self, dimension, edges_type, floor_name, floor_type, config):
+    def __init__(self, dimension, edges_type, floor_name, floor_type, moment_coefficients, config):
         self.x = dimension[0]
         self.y = dimension[1]
         self.floor_name = floor_name
@@ -13,6 +13,7 @@ class Slab():
         self.config = config
         self.ls_n = self.__determine_ls_n()
         self.slab_thicknes = self.__determining_slab_thickness()
+        self.moment_coefficients = moment_coefficients
 
     def __str__(self):
         return f"Floor: {self.floor_name}\n" \
