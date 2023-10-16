@@ -34,7 +34,7 @@ print("""
       """)
 
 slabs_data = {
-    'd2': {"dimension": [l_x_1, l_y_1], "edges_type": [0, 1, 1, 0], "slab_type": "normal"},
+    'd1': {"dimension": [l_x_1, l_y_1], "edges_type": [0, 1, 1, 0], "slab_type": "normal"},
     'd2': {"dimension": [l_x_2, l_y_1], "edges_type": [0, 1, 1, 1], "slab_type": "normal"},
     'd3': {"dimension": [l_x_3, l_y_1], "edges_type": [1, 1, 1, 1], "slab_type": "normal"},
     'd4': {"dimension": [l_x_1, l_y_2], "edges_type": [1, 1, 1, 1], "slab_type": "normal"},
