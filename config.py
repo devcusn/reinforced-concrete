@@ -13,3 +13,5 @@ q_t = 420
 beam_front_dimension = 30  # cm
 # for earthquake data
 [latitude, longitude] = [38.65, 39.65]
+
+reinforced_concrete_slab_thickness = 130 / 1000

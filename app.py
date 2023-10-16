@@ -1,5 +1,6 @@
 from classes.Slab import *
 from classes.Load import *
+from classes.InternalForce import *
 from helper.helper import *
 from config import *
 
@@ -42,14 +43,14 @@ slabs = [Slab(value['dimension'], value["edges_type"], key, value["slab_type"], 
 
 loads_data_for_normal_slabs = {
     "marble": {"m": 0.03, "per_load": 27},
-    "reinforced_concrete": {"m": 0.12, "per_load": 25},
+    "reinforced_concrete": {"m": reinforced_concrete_slab_thickness, "per_load": 25},
     "plaster": {"m": 0.02, "per_load": 20},
     "screed_mortar": {"m": 0.05, "per_load": 21},
 }
 
 loads_data_for_balcony_slabs = {
     "ceramic": {"m": 0.07, "per_load": 26},
-    "reinforced_concrete": {"m": 0.12, "per_load": 25},
+    "reinforced_concrete": {"m": reinforced_concrete_slab_thickness, "per_load": 25},
     "plaster": {"m": 0.02, "per_load": 20},
     "screed_mortar": {"m": 0.05, "per_load": 21}
 }
@@ -73,3 +74,5 @@ pd_balcony = get_total_load(
 
 
 # calculation of internal forces
+
+info = InternalForce(slabs[0], 10, 0.0052, 0.0052, 0.0052, 0.0052)
