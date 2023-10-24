@@ -21,4 +21,11 @@ class InternalForce():
         }
 
     def calculate_internal_forces(self, a, p_d, l_s):
+        l_s = l_s / 1000
         return a * p_d * l_s**2
+
+    def write_to_file(self, filename):
+        with open(filename, 'a') as file:
+            file.write(f"Floor: {self.slab.floor_name}\n")
+            file.write(f"Floor: {self.internal_forces}\n")
+            file.write(f"-----------------------------------\n")

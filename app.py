@@ -21,10 +21,10 @@ print("""
 
 slabs_data = {
     'd1': {"dimension": [l_x_1, l_y_1], "edges_type": [0, 1, 1, 0], "slab_type": "normal", "moment_coefficients": {
-        "a_x_bracktet": 0.052,
-        "a_x_opennes": 0.052,
-        "a_y_bracktet": 0.052,
-        "a_y_opennes": 0.052
+        "a_x_bracktet": 0.049,
+        "a_x_opennes": 0.037,
+        "a_y_bracktet": 0.056,
+        "a_y_opennes": 0.042
 
     }},
     'd2': {"dimension": [l_x_2, l_y_1], "edges_type": [0, 1, 1, 1], "slab_type": "normal", "moment_coefficients": {
@@ -35,31 +35,31 @@ slabs_data = {
 
     }},
     'd3': {"dimension": [l_x_3, l_y_1], "edges_type": [1, 1, 1, 1], "slab_type": "normal", "moment_coefficients": {
-        "a_x_bracktet": 0.052,
-        "a_x_opennes": 0.052,
-        "a_y_bracktet": 0.052,
-        "a_y_opennes": 0.052
+        "a_x_bracktet": 0.033,
+        "a_x_opennes": 0.025,
+        "a_y_bracktet": 0.054,
+        "a_y_opennes": 0.041
 
     }},
     'd4': {"dimension": [l_x_1, l_y_2], "edges_type": [1, 1, 1, 1], "slab_type": "normal", "moment_coefficients": {
-        "a_x_bracktet": 0.052,
-        "a_x_opennes": 0.052,
-        "a_y_bracktet": 0.052,
-        "a_y_opennes": 0.052
+        "a_x_bracktet": 0.033,
+        "a_x_opennes": 0.025,
+        "a_y_bracktet": 0.033,
+        "a_y_opennes": 0.025
 
     }},
     'd5': {"dimension": [l_x_2, l_y_2], "edges_type": [1, 0, 1, 1], "slab_type": "normal", "moment_coefficients": {
-        "a_x_bracktet": 0.052,
-        "a_x_opennes": 0.052,
-        "a_y_bracktet": 0.052,
-        "a_y_opennes": 0.052
+        "a_x_bracktet": 0.042,
+        "a_x_opennes": 0.031,
+        "a_y_bracktet": 0.057,
+        "a_y_opennes": 0.042
 
     }},
     'd6': {"dimension": [l_x_2, l_y_2], "edges_type": [1, 1, 1, 1], "slab_type": "normal", "moment_coefficients": {
-        "a_x_bracktet": 0.052,
-        "a_x_opennes": 0.052,
-        "a_y_bracktet": 0.052,
-        "a_y_opennes": 0.052
+        "a_x_bracktet": 0.033,
+        "a_x_opennes": 0.025,
+        "a_y_bracktet": 0.033,
+        "a_y_opennes": 0.025
 
     }},
     'b1': {"dimension": [l_x_3, a], "edges_type": [0, 0, 0, 1], "slab_type": "balcony", "moment_coefficients": {
@@ -123,4 +123,7 @@ pd_balcony = get_total_load(
 
 # calculation of internal forces
 
-internal_forces = [InternalForce(slab, 100) for slab in slabs]
+internal_forces = [InternalForce(slab, pd_normal) for slab in slabs]
+print(internal_forces[0].internal_forces)
+
+[i.write_to_file('internal_forces') for i in internal_forces]
