@@ -21,9 +21,9 @@ print("""
 
 slabs_data = {
     'd1': {"dimension": [l_x_1, l_y_1], "edges_type": [0, 1, 1, 0], "slab_type": "normal", "moment_coefficients": {
-        "a_x_bracket": 0.052,
+        "a_x_bracktet": 0.052,
         "a_x_opennes": 0.052,
-        "a_y_bracket": 0.052,
+        "a_y_bracktet": 0.052,
         "a_y_opennes": 0.052
 
     }},
@@ -123,5 +123,4 @@ pd_balcony = get_total_load(
 
 # calculation of internal forces
 
-internal_forces = InternalForce(slabs[0], 100)
-print(internal_forces.internal_forces)
+internal_forces = [InternalForce(slab, 100) for slab in slabs]

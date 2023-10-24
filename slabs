@@ -5398,3 +5398,1371 @@ How Floor Works: single direction
 ls: 1050.0
 Slab Thickness: 87.5
 -----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: d1
+Type: normal
+a_s: 0.5
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 102.59803921568627
+-----------------------------------
+Floor: d2
+Type: normal
+a_s: 0.7386363636363635
+Dimensions: 4.6 x 4.2
+Edge Proportion: 1.0952380952380951
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 95.60271836007131
+-----------------------------------
+Floor: d3
+Type: normal
+a_s: 1.0
+Dimensions: 5.8 x 4.2
+Edge Proportion: 1.380952380952381
+How Floor Works: double direction
+ls: 3900.0
+Slab Thickness: 99.21052631578948
+-----------------------------------
+Floor: d4
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: d5
+Type: normal
+a_s: 0.7169811320754716
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 116.34874559402861
+-----------------------------------
+Floor: d6
+Type: normal
+a_s: 1.0
+Dimensions: 4.6 x 6.0
+Edge Proportion: 1.3043478260869565
+How Floor Works: double direction
+ls: 4300.0
+Slab Thickness: 106.31868131868131
+-----------------------------------
+Floor: b1
+Type: balcony
+a_s: 0.08571428571428572
+Dimensions: 5.8 x 1.2
+Edge Proportion: 4.833333333333333
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
+Floor: b2
+Type: balcony
+a_s: 0.08333333333333333
+Dimensions: 1.2 x 6.0
+Edge Proportion: 5.0
+How Floor Works: single direction
+ls: 1050.0
+Slab Thickness: 87.5
+-----------------------------------
