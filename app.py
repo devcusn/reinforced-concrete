@@ -28,10 +28,10 @@ slabs_data = {
 
     }},
     'd2': {"dimension": [l_x_2, l_y_1], "edges_type": [0, 1, 1, 1], "slab_type": "normal", "moment_coefficients": {
-        "a_x_bracktet": 0.052,
-        "a_x_opennes": 0.052,
-        "a_y_bracktet": 0.052,
-        "a_y_opennes": 0.052
+        "a_x_bracktet": 0.042,
+        "a_x_opennes": 0.031,
+        "a_y_bracktet": 0.047,
+        "a_y_opennes": 0.035
 
     }},
     'd3': {"dimension": [l_x_3, l_y_1], "edges_type": [1, 1, 1, 1], "slab_type": "normal", "moment_coefficients": {
@@ -111,7 +111,7 @@ dead_load_for_normal = sum([l.total_load for l in loads_for_normal_slabs])
 
 pd_normal = get_total_load(
     2, dead_load_for_normal)
-
+print(pd_normal)
 loads_for_balcony_slabs = [Load(key, value["m"], value["per_load"])
                            for key, value in loads_data_for_balcony_slabs.items()]
 

@@ -27,5 +27,6 @@ class InternalForce():
     def write_to_file(self, filename):
         with open(filename, 'a') as file:
             file.write(f"Floor: {self.slab.floor_name}\n")
+            file.write(f"Floor: {self.p_d * self.slab.ls_n**2}\n")
             file.write(f"Floor: {self.internal_forces}\n")
             file.write(f"-----------------------------------\n")
