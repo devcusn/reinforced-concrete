@@ -124,6 +124,5 @@ pd_balcony = get_total_load(
 # calculation of internal forces
 
 internal_forces = [InternalForce(slab, pd_normal) for slab in slabs]
-print(internal_forces[0].internal_forces)
 
 [i.write_to_file('internal_forces') for i in internal_forces]
