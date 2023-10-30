@@ -3,6 +3,7 @@ from classes.Load import *
 from classes.InternalForce import *
 from helper.helper import *
 from config import *
+from classes.BracketBalance import *
 
 print("""
                     |-b2-|
