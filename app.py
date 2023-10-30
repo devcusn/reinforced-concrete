@@ -84,7 +84,7 @@ slabs = [Slab(value['dimension'], value["edges_type"], key, value["slab_type"], 
          for key, value in slabs_data.items()]
 
 
-[s.write_to_file('slabs') for s in slabs]
+[s.write_to_file('slabs.result') for s in slabs]
 # determination of loads
 # TS498 -live load values page 12 table 7
 # for housing = 2 KN/m^2
@@ -126,4 +126,4 @@ pd_balcony = get_total_load(
 
 internal_forces = [InternalForce(slab, pd_normal) for slab in slabs]
 
-[i.write_to_file('internal_forces') for i in internal_forces]
+[i.write_to_file('internal_forces.result') for i in internal_forces]
